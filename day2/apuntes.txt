@@ -1,0 +1,48 @@
+Opponent:
+
+ A - Rock	-> Y - Paper	-> 2 pts. 
+ B - Paper	-> X - Rock	-> 1 pts.
+ C - Scissors	-> Z - Scissors	-> 3 pts.
+
+#Rock(X):  
+# A Draw +3
+# B loss +0
+# C Win  +6
+
+#Paper(Y):
+# A win  +6
+# B draw +3
+# C loss +0
+
+#Scissors(Z):
+# A loss +0
+# B win  +6
+# C draw +3
+
+Win =   6
+Draw=   3
+Loss=   0
+
+Part Two:
+#X - lose +0
+#Y - draw +3
+#Z - win  +6
+
+Paper	-> 2 pts. 
+Rock	-> 1 pts.
+Scissors-> 3 pts.
+
+#Rock(A):  
+# X loss Scissors   +0 +3
+# Y Draw rock       +3 +1 
+# Z Win  paper      +6 +2
+
+#Paper(B):
+# X loss rock       +0 +1
+# Y draw Paper      +3 +2
+# Z win  Scissors   +6 +3
+
+#Scissors(C):
+# X loss Paper      +0  +2
+# Y draw Scissors   +3  +3
+# Z win  rock       +6  +1
